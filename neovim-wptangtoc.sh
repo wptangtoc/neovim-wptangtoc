@@ -2,6 +2,7 @@
 if $(cat /etc/*release | grep -q "Ubuntu") ; then
 	sudo apt install ripgrep fzf neovim nodejs -y
 else
+	sudo dnf install epel-release -y
 	sudo dnf install ripgrep fzf neovim nodejs -y
 fi
 cd
