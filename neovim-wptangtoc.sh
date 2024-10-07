@@ -26,7 +26,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 rm -f neovim.zip
 ln -f /usr/bin/nvim /usr/bin/vim
 clear
-echo "Đang tiến hành cài đặt"
+echo "Đang tiến hành cài đặt, vui lòng chờ đợi"
+sleep 3
 nvim --headless +PlugInstall +qa
 sleep 10
 nvim +'CocInstall -sync coc-phpls coc-css coc-html' +qall
