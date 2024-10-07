@@ -7,15 +7,16 @@ Neovim là một IDE cực mạnh (mạnh mẽ nhất mình từng trải nghi�
 Neovim mặc định nói thẳng ra là rất chán, phải được tuỳ biến lại thì mới ngon được.<br>
 
 Mới đầu làm quen với Neovim 7 ngày đầu tiên đường cong học tập nó khá là cực hình, nhưng dần một thời gian khi bạn đã quen thuộc rồi tốc độ gõ của bạn siêu nhanh nó là thứ rất xứng đáng để bạn luyện tập<br>
-
 Phần mềm này giúp bản thân mình cải thiện năng suất làm việc rất nhiều.<br>
 
 Trên linux thì mình tự tin đây là IDE tốt nhất dành cho linux<br>
 
+ưu điểm lớn nhất của Neovim là code trực tiếp ngay trên giao thức ssh<br>
+
 lưu ý: lời khuyên của mình, hãy chạy trên vps khoẻ khoẻ chứ VPS mà 1GB ram đã chạy webserver rồi mà còn cài thêm cái neovim này thì có vẻ hơi khoai<br>
 <h2>Hướng dẫn cài đặt neovim</h2>
-yêu cầu: sử dụng hệ điều hành almalinux > 8 hoặc rocky linux > 8 hoặc ubuntu > 18.04<br>
-trên máy chủ, vps hay máy cá nhân dùng linux đều có thể sử dụng được.
+yêu cầu: sử dụng hệ điều hành linux almalinux,rocky linux,ubuntu, debian<br>
+Trên môi trường máy chủ, vps hay máy cá nhân đều có thể sử dụng được.<br>
 
 sử dụng paste lệnh này vào terminal và làm thêm một số yêu cầu phần mềm có hướng dẫn.<br>
 
