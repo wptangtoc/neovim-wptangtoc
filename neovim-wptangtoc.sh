@@ -16,6 +16,7 @@ fi
 
 
 wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip
+rm -rf ~/config/nvim
 mkdir -p ~/.config/nvim
 unzip -o neovim.zip -d ~/.config/nvim
 rm -f neovim-wptangtoc.sh
