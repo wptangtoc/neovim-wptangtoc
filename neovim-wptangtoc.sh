@@ -28,7 +28,8 @@ clear
 echo '====================================='
 echo 'Hoàn tất cài đặt neovim'
 echo "trên terminal bạn hãy gõ lệnh: vim ."
+echo "Bạn cứ ấn enter đến khi nào có ấn được nút :"
 echo "rồi sau đó gõ=> :PlugInstall"
 echo "rồi tiếp tục gõ=> :CocInstall coc-phpls coc-css coc-html"
-echo "Để thoát ra gõ=> :q!"
+echo "Để thoát ra gõ=> :q! (ấn khi nào thoát ra thì thôi)"
 echo "Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc"

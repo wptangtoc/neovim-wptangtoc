@@ -16,5 +16,9 @@ trên máy chủ, vps hay máy cá nhân dùng linux đều có thể sử dụn
 
 sử dụng paste lệnh này vào terminal và làm theo phần mềm hướng dẫn
 <pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/neovim-wptangtoc.sh && bash neovim-wptangtoc.sh</pre>
-
 lệnh này nó sẽ giúp mọi người tự động cài đặt neovim và setting lại theo kiểu của mình
+
+<h2>Hướng dẫn xoá neovim</h2>
+<pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/remove-neovim-wptangtoc.sh && bash remove-neovim-wptangtoc.sh</pre>
+
+
