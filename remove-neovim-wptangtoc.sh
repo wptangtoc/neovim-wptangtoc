@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ ! -d ~/config/nvim ]];then
+if [[ -d ~/config/nvim ]];then
 echo "Bạn chưa cài neovim vì vậy không thể xoá"
 exit;
 fi

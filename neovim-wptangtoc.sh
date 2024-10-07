@@ -16,6 +16,8 @@ fi
 
 
 wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip
+echo "Đang tiến hành cài đặt, vui lòng chờ đợi"
+
 rm -rf ~/config/nvim
 mkdir -p ~/.config/nvim
 unzip -o neovim.zip -d ~/.config/nvim
@@ -38,3 +40,5 @@ echo 'Hoàn tất cài đặt neovim'
 echo '====================================='
 echo "Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc"
 echo "nguồn tham khảo: https://github.com/wptangtoc/neovim-wptangtoc"
+echo '====================================='
+
