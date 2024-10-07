@@ -16,7 +16,14 @@ trên máy chủ, vps hay máy cá nhân dùng linux đều có thể sử dụn
 
 sử dụng paste lệnh này vào terminal và làm theo phần mềm hướng dẫn
 <pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/neovim-wptangtoc.sh && bash neovim-wptangtoc.sh</pre>
-lệnh này nó sẽ giúp mọi người tự động cài đặt neovim và setting lại theo kiểu của mình
+
+sau khi thực thi lệnh bên trên xong: bạn hãy tiếp tục thực hiện các bước sau
+trên terminal bạn hãy gõ lệnh: vim .
+Bạn cứ ấn enter đến khi nào có ấn được nút :
+rồi sau đó gõ=> :PlugInstall"
+rồi tiếp tục gõ=> :CocInstall coc-phpls coc-css coc-html
+Để thoát ra gõ=> :q! (ấn khi nào thoát ra thì thôi)
+Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc
 
 <h2>Hướng dẫn xoá neovim</h2>
 <pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/remove-neovim-wptangtoc.sh && bash remove-neovim-wptangtoc.sh</pre>
