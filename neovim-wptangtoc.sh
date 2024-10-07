@@ -1,8 +1,13 @@
 #!/bin/bash
-dnf install ripgrep fzf neovim -y
+if $(cat /etc/*release | grep -q "Ubuntu") ; then
+	apt install ripgrep fzf neovim -y
+else
+	dnf install ripgrep fzf neovim -y
+fi
 wget https://github.com/wptangtoc/neovim-wptangtoc/blob/main/neovim.zip
 mkdir -p /root/.config/nvim
 unzip -o neovim.zip -d /root/.config/nvim
+rm -f neovim-wptangtoc.sh
 
 #cai vim plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
