@@ -18,18 +18,11 @@ lưu ý: lời khuyên của mình, hãy chạy trên vps khoẻ khoẻ chứ VP
 yêu cầu: sử dụng hệ điều hành linux almalinux,rocky linux,ubuntu, debian<br>
 Trên môi trường máy chủ, vps hay máy cá nhân đều có thể sử dụng được.<br>
 
-sử dụng paste lệnh này vào terminal và làm thêm một số yêu cầu phần mềm có hướng dẫn.<br>
+sử dụng paste lệnh này vào terminal<br>
 
 <pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/neovim-wptangtoc.sh && bash neovim-wptangtoc.sh</pre>
-
 <br>
-sau khi thực thi lệnh bên trên xong: bạn hãy tiếp tục thực hiện các bước sau<br>
-trên terminal bạn hãy gõ lệnh: vim .<br>
-Bạn cứ ấn enter đến khi nào có ấn được nút :<br>
-rồi sau đó gõ=> :PlugInstall" <br>
-rồi tiếp tục gõ=> :CocInstall coc-phpls coc-css coc-html<br>
-Để thoát ra gõ=> :q! (ấn khi nào thoát ra thì thôi)<br>
-Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc
+ngồi đợi phần mềm sẽ tự động cài đặt neovim và custom theo phong cách của mình.
 
 <h2>Hướng dẫn xoá neovim</h2>
 
