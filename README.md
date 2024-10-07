@@ -13,11 +13,12 @@ Phần mềm này giúp bản thân mình cải thiện năng suất làm việc
 Trên linux thì mình tự tin đây là IDE tốt nhất dành cho linux<br>
 
 lưu ý: lời khuyên của mình, hãy chạy trên vps khoẻ khoẻ chứ VPS mà 1GB ram đã chạy webserver rồi mà còn cài thêm cái neovim này thì có vẻ hơi khoai<br>
-<h2>Hướng dẫn cài đặt</h2>
+<h2>Hướng dẫn cài đặt neovim</h2>
 yêu cầu: sử dụng hệ điều hành almalinux > 8 hoặc rocky linux > 8 hoặc ubuntu > 18.04<br>
 trên máy chủ, vps hay máy cá nhân dùng linux đều có thể sử dụng được.
 
-sử dụng paste lệnh này vào terminal và làm theo phần mềm hướng dẫn
+sử dụng paste lệnh này vào terminal và làm thêm một số yêu cầu phần mềm có hướng dẫn.<br>
+
 <pre>curl -sO https://raw.githubusercontent.com/wptangtoc/neovim-wptangtoc/refs/heads/main/neovim-wptangtoc.sh && bash neovim-wptangtoc.sh</pre>
 
 <br>
@@ -54,8 +55,8 @@ Neovim có 4 chế độ:<br>
 vim . là mở neovim bằng thư mục anh em đang đứng (anh em đang cd thư mục đó)<br>
 vim index.php là mở file index.php bằng Neovim<br>
 
-====================================
-bài 1: chế độ normal (hiểu đơn giản là trung gian của chuyển các chế độ)<br>
+====================================<br>
+Bài 1: chế độ normal (hiểu đơn giản là trung gian của chuyển các chế độ)<br>
 esc là chuyển chế độ về chế độ normal<br>
 :q là thoát (hoặc ấn nút ctrl + q)<br>
 :w là lưu lại (hoặc ấn nút ctrl + s)<br>
@@ -76,7 +77,7 @@ u là quay trở lại ví dụ bạn làm cái gì đó muốn quay ấn nút n
 số nào đó + g là bay vào số dòng đó, ví dụ: bạn gõ 2 + g thì nó sẽ di con chuột vào dòng thứ 2<br>
 G là bay xuống cuối văn bản file<br>
 
-bài 2: chế độ insert (để bạn có thể sửa văn bản như kiểu word đó)<br>
+Bài 2: chế độ insert (để bạn có thể sửa văn bản như kiểu word đó)<br>
 i là chuyển chế độ về chế độ insert (nhảy về trước 1 chữ)<br>
 I là chuyển chế độ về chế độ insert (nhảy về đầu hàng)<br>
 a là chuyển chế độ về insert (nhảy về sau 1 chữ)<br>
@@ -100,7 +101,7 @@ P là paste (cho vào ở phía trước)<br>
 d hoặc x là delete xoá chỗ đang được tô v-line<br>
 c là changer xoá chỗ đang được tô v-line nhưng chuyển ngay về chế độ insert luôn<br>
 
-bài 4: chế độ command<br>
+Bài 4: chế độ command<br>
 bắt đầu bạn ấn nút gõ :<br>
 q là thoát<br>
 w là ghi vào<br>
@@ -113,10 +114,9 @@ nâng cao hơn bạn v-line tô màu: norm I abc là tự động chèn ký tự
 
 nút / là tìm kiếm ký tự trong văn bản lệnh này hơi đặc biệt bạn không cần ấn nút : để chuyển sang chỉ ấn mỗi / (khi bạn xác định ký tự rồi có thể ấn nút n để next nếu văn bản có nhiều ký tự trung nhau, và ngược lại ấn nút shift + n để quay ngược di chuyển ký tự)<br>
 
+Đây là một số phím tắt mà thường xuyên cá nhân mình sử dụng hàng ngày.<br>
 
-đây là một số phím tắt mà thường xuyên cá nhân mình sử dụng hàng ngày.<br>
-
-License: GPLv2
+<h3>License: GPLv2</h3><br>
 Đây là phần mềm miễn phí cống hiến cho cộng đồng đặc biệt dành cho cộng đồng Việt Nam; bạn có thể phân phối lại và hoặc sửa đổi nó theo các điều khoản của Giấy phép Công cộng GNU GPLv2 theo tiêu chuẩn quốc tế.
 
 Phần mềm này bạn được phép phân phối sửa đổi với hy vọng rằng nó sẽ hữu ích hơn cho cộng đồng.
