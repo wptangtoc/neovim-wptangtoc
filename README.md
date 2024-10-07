@@ -6,7 +6,7 @@ Neovim là một IDE cực mạnh (mạnh mẽ nhất mình từng trải nghi�
 
 Neovim mặc định nói thẳng ra là rất chán, phải được tuỳ biến lại thì mới ngon được.<br>
 
-Mới đầu làm quen với Neovim 7 ngày đầu tiên đường cong học tập nó khá là cực hình, nhưng dần một thời gian khi bạn đã quen thuộc rồi tốc độ gõ của bạn siêu nhanh nó là thứ rất xứng đáng để bạn luyện tập<br>
+Mới đầu làm quen với Neovim: 21 giờ đầu tiên đường cong học tập nó khá là cực hình, nhưng dần một thời gian khi bạn đã quen thuộc rồi tốc độ gõ của bạn siêu nhanh nó là thứ rất xứng đáng để bạn luyện tập<br>
 Phần mềm này giúp bản thân mình cải thiện năng suất làm việc rất nhiều.<br>
 
 Trên linux thì mình tự tin đây là IDE tốt nhất dành cho linux<br>

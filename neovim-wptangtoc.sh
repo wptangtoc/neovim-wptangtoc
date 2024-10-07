@@ -4,9 +4,9 @@
 OUTPUT=$(cat /etc/*release)
 if  echo $OUTPUT | grep -q "AlmaLinux\|Rocky Linux\|Fedora" ; then
 	sudo dnf install epel-release -y
-	sudo dnf install ripgrep fzf neovim nodejs git -y
+	sudo dnf install ripgrep fzf neovim nodejs git wget -y
 elif echo $OUTPUT | grep -q "Ubuntu\|debian" ; then
-	sudo apt install ripgrep fzf neovim nodejs git -y
+	sudo apt install ripgrep fzf neovim nodejs git wget -y
 else
 	echo "Hiện tại neovim wptangtoc không hỗ trợ với hệ điều hành $(hostnamectl | grep System | cut -f2 -d':'|sed 's/^ //g') của bạn"
 	echo "Muốn sử dụng neovim wptangtoc vui lòng sử dụng hệ điều hành (Almalinux|Rocky linux|Fedora|Ubuntu|debian)"
