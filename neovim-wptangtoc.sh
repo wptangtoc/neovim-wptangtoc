@@ -4,7 +4,7 @@ if $(cat /etc/*release | grep -q "Ubuntu") ; then
 else
 	dnf install ripgrep fzf neovim -y
 fi
-wget https://github.com/wptangtoc/neovim-wptangtoc/blob/main/neovim.zip
+wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip
 mkdir -p /root/.config/nvim
 unzip -o neovim.zip -d /root/.config/nvim
 rm -f neovim-wptangtoc.sh
