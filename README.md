@@ -15,7 +15,7 @@ Trên linux thì mình tự tin đây là IDE tốt nhất dành cho linux<br>
 
 lưu ý: lời khuyên của mình, hãy chạy trên vps khoẻ khoẻ chứ VPS mà 1GB ram đã chạy webserver rồi mà còn cài thêm cái neovim này thì có vẻ hơi khoai<br>
 <h2>Hướng dẫn cài đặt neovim</h2>
-yêu cầu: sử dụng hệ điều hành linux almalinux,rocky linux,ubuntu, debian<br>
+yêu cầu: sử dụng hệ điều hành linux Almalinux,Rocky Linux,Ubuntu,Debian,Fedora<br>
 Trên môi trường máy chủ, vps hay máy cá nhân đều có thể sử dụng được.<br>
 
 sử dụng paste lệnh này vào terminal<br>
