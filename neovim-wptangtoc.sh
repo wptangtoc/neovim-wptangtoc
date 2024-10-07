@@ -17,8 +17,9 @@ rm -f neovim.zip
 ln -f /usr/bin/nvim /usr/bin/vim
 clear
 echo '====================================='
-echo 'hoàn tất cài đặt neovim'
+echo 'Hoàn tất cài đặt neovim'
 echo "trên terminal bạn hãy gõ lệnh: vim ."
 echo "rồi sau đó gõ=> :PlugInstall"
 echo "rồi tiếp tục gõ=> :CocInstall coc-phpls coc-css coc-html"
 echo "Để thoát ra gõ=> :q!"
+echo "Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc"
