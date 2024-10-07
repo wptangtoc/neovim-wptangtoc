@@ -3,5 +3,5 @@ Neovim là một IDE nguồn mở miễn phí, hiệu suất cực nhanh và si�
 
 <h2>Hướng dẫn cài đặt sử dụng paste lệnh này vào terminal và làm theo phần mềm hướng dẫn</h2>
 
-yêu cầu: sử dụng hệ điều hành almalinux 8,9 hoặc rocky linux 8,9 hoặc ubuntu
+yêu cầu: sử dụng hệ điều hành almalinux > 8 hoặc rocky linux > 8 hoặc ubuntu > 18.04<br>
 <code>curl -sO https://github.com/wptangtoc/neovim-wptangtoc/blob/main/neovim-wptangtoc.sh && bash neovim-wptangtoc.sh</code>
