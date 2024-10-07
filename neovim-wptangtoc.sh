@@ -1,13 +1,13 @@
 #!/bin/bash
 if $(cat /etc/*release | grep -q "Ubuntu") ; then
-	apt install ripgrep fzf neovim -y
+	sudo apt install ripgrep fzf neovim nodejs -y
 else
-	dnf install ripgrep fzf neovim -y
+	sudo dnf install ripgrep fzf neovim nodejs -y
 fi
 cd
 wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip
-mkdir -p /root/.config/nvim
-unzip -o neovim.zip -d /root/.config/nvim
+mkdir -p ~/.config/nvim
+unzip -o neovim.zip -d ~/.config/nvim
 rm -f neovim-wptangtoc.sh
 
 #cai vim plug
