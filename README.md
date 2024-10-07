@@ -74,8 +74,8 @@ j là di chuyển xuống dưới (phải đang ở chế độ normal)<br>
 k là di chuyển lên trên (phải đang ở chế độ normal)<br>
 l là di chuyển sang phải (phải đang ở chế độ normal)<br>
 f là nhảy bước ký tự bạn muốn (phải đang ở chế độ normal)<br>
-u là quay trở lại ví dụ bạn làm cái gì đó muốn quay ấn nút này (phải đang ở chế độ normal)<br>
-số nào đó + g là bay vào số dòng đó, ví dụ: bạn gõ 2 + g thì nó sẽ di con chuột vào dòng thứ 2<br>
+u là quay trở lại ví dụ bạn làm cái gì đó muốn quay ấn nút này giống như trên word bạn ấn nút ctrl + z đó (phải đang ở chế độ normal)<br>
+Số number nào đó + g là bay vào số dòng đó, ví dụ: bạn gõ 2 + g thì nó sẽ di con chuột vào dòng thứ 2<br>
 G là bay xuống cuối văn bản file<br>
 
 Bài 2: chế độ insert (để bạn có thể sửa văn bản như kiểu word đó)<br>

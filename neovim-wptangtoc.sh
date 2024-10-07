@@ -25,11 +25,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 rm -f neovim.zip
 ln -f /usr/bin/nvim /usr/bin/vim
 clear
+nvim --headless +PlugInstall +qa
+sleep 10
+nvim +'CocInstall -sync coc-phpls coc-css coc-html' +qall
+nvim +CocUpdateSync +qall
 echo '====================================='
 echo 'Hoàn tất cài đặt neovim'
-echo "trên terminal bạn hãy gõ lệnh: vim ."
-echo "Bạn cứ ấn enter đến khi nào có ấn được nút :"
-echo "rồi sau đó gõ=> :PlugInstall"
-echo "rồi tiếp tục gõ=> :CocInstall coc-phpls coc-css coc-html"
-echo "Để thoát ra gõ=> :q! (ấn khi nào thoát ra thì thôi)"
+echo '====================================='
 echo "Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc"
+echo "nguồn tham khảo: https://github.com/wptangtoc/neovim-wptangtoc"
