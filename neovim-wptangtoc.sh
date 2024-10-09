@@ -15,7 +15,7 @@ else
 fi
 
 
-wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip
+wget https://github.com/wptangtoc/neovim-wptangtoc/raw/refs/heads/main/neovim.zip --no-check-certificate
 echo "Đang tiến hành cài đặt, vui lòng chờ đợi"
 
 rm -rf ~/config/nvim
