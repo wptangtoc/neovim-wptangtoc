@@ -22,6 +22,15 @@ cd
 rm -rf ~/config/nvim
 rm -rf $HOME/.local/share/nvim
 rm -f neovim-wptangtoc.sh
+
+if [[ -d ~/.fzf ]];then
+ ~/.fzf/uninstall
+ln -f /root/.fzf/bin/fzf /usr/local/bin/fzf
+rm -rf ~/.fzf
+fi
+
+
+
 clear
 echo '====================================='
 echo 'Hoàn tất xoá neovim'

@@ -4,7 +4,13 @@
 OUTPUT=$(cat /etc/*release)
 if  echo $OUTPUT | grep -q "AlmaLinux\|Rocky Linux\|Fedora" ; then
 	sudo dnf install epel-release -y
-	sudo dnf install ripgrep fzf neovim nodejs git wget -y
+	sudo dnf install ripgrep neovim nodejs git wget -y
+	#cai fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+ ~/.fzf/install --all
+ln -f /root/.fzf/bin/fzf /usr/local/bin/fzf
+
+
 elif echo $OUTPUT | grep -q "Ubuntu\|debian" ; then
 	sudo apt install ripgrep fzf neovim nodejs git wget -y
 else
@@ -35,10 +41,15 @@ sleep 10
 nvim +'CocInstall -sync coc-phpls coc-css coc-html' +qall
 nvim +CocUpdateSync +qall
 clear
+if [[ $(which nvim) ]];then
 echo '====================================='
 echo 'Hoàn tất cài đặt neovim'
 echo '====================================='
 echo "Hy vọng phần mềm này sẽ giúp bạn cải thiện năng suất làm việc"
 echo "nguồn tham khảo: https://github.com/wptangtoc/neovim-wptangtoc"
 echo '====================================='
+else
+	echo 'Cài đặt neovim thất bại'
+fi
+
 
