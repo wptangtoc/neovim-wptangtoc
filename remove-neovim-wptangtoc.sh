@@ -1,14 +1,19 @@
 #!/bin/bash
 
 if [[ -d ~/config/nvim ]];then
-echo "Bạn chưa cài neovim vì vậy không thể xoá"
-exit;
+	echo "Bạn chưa cài neovim vì vậy không thể xoá"
+	exit;
 fi
 
 OUTPUT=$(cat /etc/*release)
 if  echo $OUTPUT | grep -q "AlmaLinux\|Rocky Linux" ; then
-	sudo dnf remove epel-release -y
-	sudo dnf remove ripgrep fzf neovim nodejs git -y
+	sudo dnf remove ripgrep neovim nodejs git -y
+	sudo dnf remove fzf -y
+	if [[ -d ~/.fzf ]];then
+		~/.fzf/uninstall
+		ln -f /root/.fzf/bin/fzf /usr/local/bin/fzf
+		rm -rf ~/.fzf
+	fi
 elif echo $OUTPUT | grep -q "Ubuntu\|debian" ; then
 	sudo apt remove ripgrep fzf neovim nodejs git -y
 else
@@ -23,14 +28,9 @@ rm -rf ~/config/nvim
 rm -rf $HOME/.local/share/nvim
 rm -f neovim-wptangtoc.sh
 
-if [[ -d ~/.fzf ]];then
- ~/.fzf/uninstall
-ln -f /root/.fzf/bin/fzf /usr/local/bin/fzf
-rm -rf ~/.fzf
-fi
-
-
-
 clear
 echo '====================================='
 echo 'Hoàn tất xoá neovim'
+echo '====================================='
+rm -f remove-neovim-wptangtoc.sh
+
